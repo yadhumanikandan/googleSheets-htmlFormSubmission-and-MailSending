@@ -8,7 +8,7 @@ function intialSetup() {
 }
 
 function sendEmail(data) {
-  const subject = 'Website | New inquiry ' + data["EMAIL"];
+  const subject = 'Website | New inquiry from ' + data["NAME"];
   let body = '';
 
   // Construct email body with formatted data
